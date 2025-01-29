@@ -6,10 +6,10 @@ def main():
     for char in book:
         if len(myDict) == 0:
             myDict[char] = 1
-        else
+        else:
             if char in myDict:
                 myDict[char] += 1
-            else
+            else:
                 myDict[char] = 1 
     print(myDict)
 

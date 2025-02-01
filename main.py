@@ -20,7 +20,7 @@ def main():
         if char.isalpha():
             dic_list.append({'char': char, 'count': myDict[char]})
     #        dic_list.append(f"The '{char}' character was found {myDict[char]} times")
-    dic_list.sort(key=myFunc)
+    dic_list.sort(reverse=True, key=myFunc)
     print("--- Begin report of books/frankenstein.txt ---")
     print(f"{len(book.split())} words found in the document")
     print("")

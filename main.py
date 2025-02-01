@@ -10,8 +10,11 @@ def main():
             if char in myDict:
                 myDict[char] += 1
             else:
-                myDict[char] = 1 
-    print(myDict)
+                myDict[char] = 1
+    dic_list=[] 
+    for char in myDict:
+        dic_list.append(myDict[char])
+    print(dic_list)
 
     
     

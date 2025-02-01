@@ -15,10 +15,16 @@ def main():
     for char in myDict:
         if char.isalpha():
             dic_list.append(f"The '{char}' character was found {myDict[char]} times")
-     
+    dic_list.sort()
+    print("--- Begin report of books/frankenstein.txt ---")
+    print(f"{len(book.split())} words found in the document")
+    print("")
+
+
     for i in range(0,len(dic_list)):
         print(dic_list[i])
 
+    print("--- End report ---")
     
     
 if __name__ == "__main__":

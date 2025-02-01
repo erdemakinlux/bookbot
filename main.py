@@ -13,7 +13,7 @@ def main():
                 myDict[char] = 1
     dic_list=[] 
     for char in myDict:
-        dic_list.append(myDict[char])
+        dic_list.append(f"The '{char}' character was found {myDict[char]} times")
     print(dic_list)
 
     

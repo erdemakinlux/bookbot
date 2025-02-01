@@ -16,8 +16,8 @@ def main():
         if char.isalpha():
             dic_list.append(f"The '{char}' character was found {myDict[char]} times")
     dic_list = dic_list.sort() 
-    for i in dic_list:
-        print(i)
+    for i in range(0,len(dic_list)):
+        print(dic_list[i])
 
     
     
